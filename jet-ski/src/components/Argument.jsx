@@ -5,7 +5,7 @@ import { Animator, MoveIn, MoveOut } from 'react-scroll-motion';
 
 const Argument = () => {
   return (
-    <div className="section-3">
+    <div className="section-3 text-center">
       <h2>
         <Animator animation={MoveIn(-1000, 0)}>Adrénaline et Liberté ✅</Animator>
         <Animator animation={MoveIn(1000, 0)}>Des paysages à couper le souffle ✅</Animator>
