@@ -7,7 +7,7 @@ const Map = () => {
   return (
     <div className='containMap mt-4'>
       {/* <img className='imgMap rounded-full' src="/src/assets/MAP.png" alt="" /> */}
-      <InnerImageZoom className='imgMap rounded-full' src="/src/assets/MAP.png" zoomSrc='/src/assets/MAP.png'/>
+      <InnerImageZoom className='imgMap rounded-full' src="/src/assets/MAP.png" zoomSrc='/src/assets/ZoomMap.png'/>
     </div>
   )
 }

@@ -41,6 +41,8 @@ const Slider = () => {
         interval={6000}
         infiniteLoop
         showStatus={false}
+        showThumbs={false}
+        stopOnHover
       >
         {datas.map((slide) => (
           <div key={slide.id}>
